@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import Resource.basedata;
@@ -57,10 +58,45 @@ public class LoginPage  {
 	public WebElement dropdown_Country;
 	
 	@FindBy(xpath ="//*[@id='input-zone']")
-	 WebElement dropdown_Zone;
+	 public WebElement dropdown_Zone;
 	
 	
-	@Test
+	@FindBy(xpath ="//*[@id='input-password']")
+	 public WebElement input_password;
+	
+	
+	@FindBy(xpath ="//*[@id='input-confirm']")
+	 public WebElement input_confirmpassword;
+	
+	
+	
+	@FindBy(xpath ="//select[@id='input-zone']")
+	 public WebElement dropdown_state;
+	
+	@FindBy(xpath ="//input[@name='agree']")
+	 public WebElement checkbox_privacy;
+	
+	@FindBy(xpath ="//input[@type='submit']")
+	 public WebElement continueButton;
+	
+	@FindBy(xpath ="//div[@class='tb_text_wrap tb_sep']/p[1]")
+	 public WebElement LoginSucess;
+	
+	@FindBy(xpath ="//input[@value='Login']")
+	 public WebElement login;
+	
+	
+	
+	
+	public void selectdropdownvalue(WebElement we,String value)
+	{
+		Select s = new Select(we);
+		s.selectByVisibleText(value);
+		
+		
+	}
+	
+//	@Test
 	public void loginintoapp() throws IOException
 	
 	{

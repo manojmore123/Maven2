@@ -6,14 +6,15 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
 
 
 public class basedata {
 	
 	
 	public WebDriver driver;
-	
-
+//	public Properties prop=null;
+	@BeforeTest
 	public WebDriver initalization() throws IOException
 	{		
 		
