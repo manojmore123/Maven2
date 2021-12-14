@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-14T15:14:51 IST" name="Default suite" finished-at="2021-12-14T15:15:31 IST" duration-ms="40048">
+    <groups>
+    </groups>
+    <test started-at="2021-12-14T15:14:51 IST" name="Default test" finished-at="2021-12-14T15:15:31 IST" duration-ms="40048">
+      <class name="TestCases.LoginTestcases">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:TestCases.LoginTestcases@1e1a0406]" started-at="2021-12-14T15:14:51 IST" name="initalization" finished-at="2021-12-14T15:14:58 IST" duration-ms="6616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestCases.LoginTestcases@1e1a0406]" started-at="2021-12-14T15:14:58 IST" name="initialize" finished-at="2021-12-14T15:15:04 IST" depends-on-methods="Resource.basedata.initalization" duration-ms="5559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="login()[pri:0, instance:TestCases.LoginTestcases@1e1a0406]" started-at="2021-12-14T15:15:04 IST" name="login" finished-at="2021-12-14T15:15:14 IST" duration-ms="10360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.LoginTestcases@1e1a0406]" started-at="2021-12-14T15:15:14 IST" name="registration" data-provider="getdata" finished-at="2021-12-14T15:15:31 IST" duration-ms="17462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mehadi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manzoor]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yeshwanthapur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bangalore]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[bangalore]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[560022]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[manzoor1]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[manzoor1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+      </class> <!-- TestCases.LoginTestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
